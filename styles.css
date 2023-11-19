@@ -1,0 +1,90 @@
+main {
+    min-height: calc(100vh - 3rem);
+    display: grid;
+    place-items: center;
+    background-color: purple;
+  }
+
+  
+#counter {
+    color: white;
+    background-color: black;
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+    max-width: 450px;
+    border-radius: 10px ;
+    font-size: 35px;
+    text-align: center;
+    box-shadow: 5px 5px 8px rgba(128, 128, 128, 0.7);
+
+    
+}
+
+#value {
+    size: 50px;
+}
+
+#btn-decrease {
+    background-color:gray ;
+    color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    max-width: 150px; /* max width */
+    width: 100%; /* available width */
+    margin: 0 auto; /* center it */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    font-size: 20px;
+    text-shadow: 2px 2px 4px #000000;
+    padding: 8px;
+}
+
+#btn-reset {
+    background-color:gray ;
+    color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    max-width: 150px; /* max width */
+    width: 100%; /* available width */
+    margin: 0 auto; /* center it */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    font-size: 20px;
+    text-shadow: 2px 2px 4px #000000;
+    padding: 8px;
+}
+
+#btn-increase {
+    background-color:gray ;
+    color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    max-width: 150px; /* max width */
+    width: 100%; /* available width */
+    margin: 0 auto; /* center it */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    font-size: 20px;
+    text-shadow: 2px 2px 4px #000000;
+    padding: 8px;
+}
+
+#btn-increase:hover {
+    background-color: #04AA6D; 
+    color: white;
+}
+
+#btn-decrease:hover {
+    background-color: #FF0000; 
+    color: white;
+}
+
+#btn-reset:hover {
+    background-color: blue; 
+    color: white;
+}
+
+.button-container {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+
